@@ -1,10 +1,10 @@
 ---
-services: Acs
-platforms: .Net
+services: Container-Service
+platforms: dotnet
 author: milismsft
 ---
 
-# Getting Started with Acs - Manage Container Service With Docker Swarm Orchestrator - in .Net #
+# Getting started on managing Azure Container Service with Docker Swarm orchestrator using C# #
 
           An Azure Container Services sample for managing a container service with Docker Swarm orchestration.
              - Create an Azure Container Service with Docker Swarm orchestrator
@@ -15,7 +15,7 @@ author: milismsft
 
 To run this sample:
 
-Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-net/blob/Fluent/AUTH.md).
+Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-java/blob/master/AUTH.md).
 
     git clone https://github.com/Azure-Samples/acs-dotnet-manage-azure-container-service-with-docker-swarm-orchestrator.git
 
