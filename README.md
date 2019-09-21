@@ -7,6 +7,7 @@ products:
 extensions:
 - services: Container-Service
 - platforms: dotnet
+description: "An Azure Container Services sample for managing a container service with Docker Swarm orchestration."
 ---
 
 # Getting started on managing Azure Container Service with Docker Swarm orchestrator using C# #
