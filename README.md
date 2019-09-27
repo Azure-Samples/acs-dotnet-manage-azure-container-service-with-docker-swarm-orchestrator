@@ -10,9 +10,10 @@ extensions:
 description: "An Azure Container Services sample for managing a container service with Docker Swarm orchestration."
 ---
 
-# Getting started on managing Azure Container Service with Docker Swarm orchestrator using C#
+# Managing Azure Container Service with Docker Swarm orchestrator (C#)
 
  An Azure Container Services sample for managing a container service with Docker Swarm orchestration.
+ 
     - Create an Azure Container Service with Docker Swarm orchestrator
     - Update the number of agent virtual machines in an Azure Container Service
 
@@ -23,13 +24,15 @@ To run this sample:
 
 Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-net/blob/master/AUTH.md).
 
-    git clone https://github.com/Azure-Samples/acs-dotnet-manage-azure-container-service-with-docker-swarm-orchestrator.git
+```bash
+git clone https://github.com/Azure-Samples/acs-dotnet-manage-azure-container-service-with-docker-swarm-orchestrator.git
 
-    cd acs-dotnet-manage-azure-container-service-with-docker-swarm-orchestrator
+cd acs-dotnet-manage-azure-container-service-with-docker-swarm-orchestrator
 
-    dotnet build
+dotnet build
 
-    bin\Debug\net452\ManageContainerServiceWithDockerSwarmOrchestrator.exe
+bin\Debug\net452\ManageContainerServiceWithDockerSwarmOrchestrator.exe
+```
 
 ## More information
 
