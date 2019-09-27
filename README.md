@@ -10,14 +10,14 @@ extensions:
 description: "An Azure Container Services sample for managing a container service with Docker Swarm orchestration."
 ---
 
-# Getting started on managing Azure Container Service with Docker Swarm orchestrator using C# #
+# Getting started on managing Azure Container Service with Docker Swarm orchestrator using C#
 
  An Azure Container Services sample for managing a container service with Docker Swarm orchestration.
     - Create an Azure Container Service with Docker Swarm orchestrator
     - Update the number of agent virtual machines in an Azure Container Service
 
 
-## Running this Sample ##
+## Running this Sample
 
 To run this sample:
 
@@ -31,7 +31,7 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an aut
 
     bin\Debug\net452\ManageContainerServiceWithDockerSwarmOrchestrator.exe
 
-## More information ##
+## More information
 
 [Azure Management Libraries for C#](https://github.com/Azure/azure-sdk-for-net/tree/Fluent)
 [Azure .Net Developer Center](https://azure.microsoft.com/en-us/develop/net/)
