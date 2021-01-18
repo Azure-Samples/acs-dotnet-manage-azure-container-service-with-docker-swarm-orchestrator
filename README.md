@@ -5,8 +5,8 @@ languages:
 products:
 - azure
 extensions:
-- services: Container-Service
-- platforms: dotnet
+  services: Container-Service
+  platforms: dotnet
 ---
 
 # Getting started on managing Azure Container Service with Docker Swarm orchestrator using C# #
